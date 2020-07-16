@@ -1,10 +1,10 @@
-print("Veuillez entrer deux nombres pour la multiplication:")
-def mul(a, b):
-	multi = a * b
-	return multi
+import sys
 
-a=int(input())
-b=int(input())
+print(sys.argv)
+
+a = int( sys.argv[1] )
+b = int( sys.argv[2] )
+
 
 print("La reponse est:")
-print(mul(a, b))
+print(a*b)
