@@ -1,16 +1,14 @@
 #!/usr/bin/env python
-__name__ = "__main__"
+import sys
 
-def add(a, b):
+def add():
+    a = int( sys.argv[1] )
+    b = int( sys.argv[2] )
     print(a+b)
    
 
 if __name__ ==  "__main__":
-    print('Enter first number:')
-    a = input()
-    print('Enter second number:')
-    b = input()
-    add(a,b)
+    add()
 
 
 
