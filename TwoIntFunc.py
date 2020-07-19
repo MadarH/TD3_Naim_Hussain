@@ -12,3 +12,4 @@ if __name__ == "__main__":
 	b = input()
 
 	mul(a,b)
+
